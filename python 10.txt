@@ -1,0 +1,80 @@
+You are given the firstname and lastname of a person on two different lines. Your task is to read them and print the
+
+Problem
+
+Hello firstname lastname! You just delved into python.
+
+Function Description
+
+Complete the print_full_name function in the editor below.
+
+print full name has the following parameters:
+
+Submissions
+
+string first: the first name
+
+string last: the last name
+
+1234
+
+Complete the 'print fu
+
+3 #
+
+4 The function is expect
+
+5. # The function accepts
+
+6# 1. STRING first
+
+7# 2. STRING last
+
+9
+
+def print_full_name(firs
+
+10
+
+11 | # Write your code he
+
+12
+
+13
+
+Prints
+
+string: "Hello firstname lastname! You just delved into python' where firstname and lastname are replaced with first and last.
+
+> ifname_
+
+main
+
+Input Format
+
+Leaderboard
+
+The first line contains the first name, and the second line contains the last name.
+
+Constraints
+
+The length of the first and last names are each 10.
+
+
+
+
+
+############################################
+#
+# Complete the 'print_full_name' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING first
+#  2. STRING last
+#
+
+def print_full_name(first, last):
+    print("Hello " + first + " " + last + "! You just delved into python.")
+
+if __name__ == '__main__':
